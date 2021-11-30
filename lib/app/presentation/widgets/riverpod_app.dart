@@ -1,5 +1,5 @@
 import 'package:cronicadeportiva/core/l10n/l10n.dart';
-import 'package:cronicadeportiva/core/l10n/timeago/presentation/time_ago_builder.dart';
+import 'package:cronicadeportiva/core/router/router.dart';
 import 'package:cronicadeportiva/core/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -12,6 +12,7 @@ class RiverpodApp extends ConsumerWidget {
     return MaterialApp.router(
       routerDelegate: ref.watch(RouterProviders.delegate),
       routeInformationParser: ref.watch(RouterProviders.parser),
+      backButtonDispatcher: ref.watch(RouterProviders.backButton),
       locale: ref.watch(L10nProviders.locale),
       supportedLocales: ref.watch(L10nProviders.supportedLocales),
       localizationsDelegates: ref.watch(L10nProviders.delegates),
