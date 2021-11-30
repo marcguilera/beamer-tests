@@ -22,10 +22,9 @@ class HomeScreen extends ConsumerWidget {
 
   static void _update(BuildContext context, String path) {
     Beamer.of(context).update(
-        configuration: RouteInformation(
-          location: path
-        ),
-        rebuild: false
+      configuration: RouteInformation(
+        location: path
+      )
     );
   }
 }

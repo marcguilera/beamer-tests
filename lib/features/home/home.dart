@@ -11,8 +11,8 @@ import 'presentation/screens/home/logic/section.dart';
 import 'presentation/screens/home/logic/section_controller.dart';
 
 class HomeProviders {
-  static final location = Provider((_) {
-    return HomeLocation();
+  static final location = Provider((ref) {
+    return HomeLocation(ref);
   });
 
   static final sections = StateNotifierProvider.autoDispose<SectionController, Sections>((ref) {

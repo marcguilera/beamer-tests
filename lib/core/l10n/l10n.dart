@@ -1,6 +1,8 @@
 export 'package:flutter_gen/gen_l10n/strings.dart';
 export 'timeago/logic/time_ago_formatter.dart';
 export 'timeago/logic/time_ago.dart';
+export 'timeago/presentation/time_ago_builder.dart';
+export 'localization/presentation/l10n_builder.dart';
 
 import 'package:cronicadeportiva/core/common/common.dart';
 import 'package:flutter_gen/gen_l10n/strings.dart';
