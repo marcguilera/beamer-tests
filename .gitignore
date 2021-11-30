@@ -1,5 +1,6 @@
 # Generated
 *.g.dart
+*.gr.dart
 *.freezed.dart
 
 # Miscellaneous

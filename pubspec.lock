@@ -43,6 +43,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.1.0"
+  beamer:
+    dependency: "direct main"
+    description:
+      name: beamer
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-pre.15.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -285,7 +292,7 @@ packages:
     source: hosted
     version: "0.0.2"
   flutter_riverpod:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: flutter_riverpod
       url: "https://pub.dartlang.org"
