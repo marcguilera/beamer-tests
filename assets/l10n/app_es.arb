@@ -1,0 +1,9 @@
+{
+  "home_title": "Inicio",
+  "search_title": "Buscar",
+  "bookmark_title": "Listas",
+  "profile_title": "Perfil",
+  "settings_title": "Ajustes",
+  "legal_tos_title": "Términos y condiciones",
+  "legal_tos_path": "assets/legal/tos_es.md"
+}
